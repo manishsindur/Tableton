@@ -9,3 +9,29 @@ body {
   height: 100%;
   width: 100%;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.orange {
+  color: #ff764d;
+}
+
+.blue {
+  color: blue;
+}
