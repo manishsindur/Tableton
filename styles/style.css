@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 html,
@@ -14,7 +16,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
   padding: 0 20px;
   height: 60px;
   background-color: #fff;
@@ -25,10 +26,11 @@ nav a {
   text-decoration: none;
   color: #000;
   padding: 10px;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
-.orange {
+div :nth-child(8) {
   color: #ff764d;
 }
 
@@ -36,6 +38,6 @@ nav a {
   color: blue;
 }
 
-div :last-child {
-  font-weight: 100;
+#secondary-nav :last-child {
+  font-size: 16px;
 }
