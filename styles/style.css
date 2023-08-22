@@ -12,6 +12,7 @@ body {
   width: 100%;
 }
 
+/* Navigation-bar */
 nav {
   display: flex;
   justify-content: space-between;
