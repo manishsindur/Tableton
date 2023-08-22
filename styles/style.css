@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 10px;
   height: 60px;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -38,6 +38,15 @@ div :nth-child(8) {
   color: blue;
 }
 
-#secondary-nav :last-child {
+#right-nav :last-child {
   font-size: 16px;
+}
+
+#logo > img {
+  width: 60px;
+  height: 40px;
+}
+
+#left-nav {
+  padding-right: 500px;
 }
