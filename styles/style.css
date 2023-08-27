@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 html,
@@ -85,4 +84,20 @@ li a {
   position: absolute;
   left: 39%;
   font-size: 6rem;
+}
+
+/* Text-Section */
+.text {
+  margin: 8% 20%;
+}
+
+.text h1 {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.text p {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
