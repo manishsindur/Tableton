@@ -18,6 +18,14 @@ body {
   align-items: center;
 }
 
+.orange {
+  color: #ff764d;
+}
+
+.blue {
+  color: blue;
+}
+
 /* Primary Navigation-bar */
 nav {
   padding: 10px;
@@ -32,14 +40,6 @@ nav a {
   padding: 10px;
   font-size: 1.25rem;
   font-weight: 500;
-}
-
-.orange {
-  color: #ff764d;
-}
-
-.blue {
-  color: blue;
 }
 
 #right-nav :last-child {
