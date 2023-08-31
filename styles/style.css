@@ -75,7 +75,7 @@ li a {
   color: #000;
 }
 
-/* Hero-Section */
+/* Hero Section */
 #hero img {
   position: relative;
   width: 80%;
@@ -88,7 +88,7 @@ li a {
   font-weight: 700;
 }
 
-/* Text-Section */
+/* First Text Section */
 .text {
   margin: 8% 20%;
 }
@@ -106,7 +106,7 @@ li a {
   font-weight: lighter;
 }
 
-/* First-Image-Section */
+/* First Image Section */
 #images {
   position: relative;
   background-color: rgb(245, 245, 130);
