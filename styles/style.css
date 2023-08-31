@@ -65,7 +65,7 @@ nav a {
 /* Secondary Navigation bar */
 ul {
   display: flex;
-  padding: 20px;
+  padding: 22px;
   list-style: none;
 }
 
@@ -107,8 +107,24 @@ li a {
 }
 
 /* First-Image-Section */
-#images div {
-  height: 100vh;
+#images {
+  position: relative;
+  background-color: rgb(245, 245, 130);
   width: 60%;
-  background-color: rgb(223, 240, 170);
+  height: 100vh;
+}
+#images #first {
+  position: absolute;
+  width: 55%;
+  height: 40%;
+  left: 15%;
+  object-fit: cover;
+}
+
+#images #second {
+  position: absolute;
+  left: 85%;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
 }
