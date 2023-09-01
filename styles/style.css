@@ -149,7 +149,7 @@ video {
 #second-images #first-image {
   position: absolute;
   bottom: 60%;
-  right: 80;
+  left: 40%;
   width: 50%;
   height: 30%;
   object-fit: cover;
@@ -167,7 +167,7 @@ video {
 #second-images #third-image {
   position: absolute;
   right: 80%;
-  top: 50%;
+  bottom: 15%;
   width: 70%;
   height: 70%;
   object-fit: cover;
