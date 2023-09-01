@@ -107,14 +107,14 @@ li a {
 }
 
 /* First Image Section */
-#images {
+#first-images {
   position: relative;
   background-color: rgb(245, 245, 130);
   width: 60%;
   height: 100vh;
 }
 
-#images #first {
+#first-images #first {
   position: absolute;
   width: 55%;
   height: 40%;
@@ -122,7 +122,7 @@ li a {
   object-fit: cover;
 }
 
-#images #second {
+#first-images #second {
   position: absolute;
   left: 85%;
   width: 70%;
