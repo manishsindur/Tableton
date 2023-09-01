@@ -136,3 +136,39 @@ video {
   height: 40%;
   object-fit: cover;
 }
+
+/* Second Image Section */
+#second-images {
+  position: relative;
+  left: 40%;
+  background-color: rgb(145, 235, 162);
+  width: 60%;
+  height: 100vh;
+}
+
+#second-images #first-image {
+  position: absolute;
+  bottom: 60%;
+  right: 80;
+  width: 50%;
+  height: 30%;
+  object-fit: cover;
+}
+
+#second-images #second-image {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  width: 50%;
+  height: 30%;
+  object-fit: cover;
+}
+
+#second-images #third-image {
+  position: absolute;
+  right: 80%;
+  top: 50%;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
