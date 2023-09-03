@@ -241,7 +241,7 @@ video {
 /* Footer Section */
 footer {
   height: 100vh;
-  border-top: solid 1px #000;
+  border-top: solid 2px #e0dada;
   margin-top: 8%;
 }
 
