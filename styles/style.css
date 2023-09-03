@@ -237,3 +237,10 @@ video {
 #image-text-section #ps {
   padding-top: 20px;
 }
+
+/* Footer Section */
+footer {
+  height: 100vh;
+  border-top: solid 1px #000;
+  margin-top: 8%;
+}
